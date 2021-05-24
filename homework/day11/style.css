@@ -1,0 +1,23 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;600&family=Balsamiq+Sans:wght@700&display=swap");
+@import "css/top&search.css";
+@import "css/botd.css";
+@import "css/ta.css";
+@import "css/pa.css";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Asap", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main {
+  width: 100%;
+  padding: 25px;
+}
+.fa-star {
+  color: #ffce33;
+}

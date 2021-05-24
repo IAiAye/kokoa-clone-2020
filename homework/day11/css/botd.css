@@ -1,0 +1,62 @@
+.botd {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.botd__title {
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.botd__book {
+  display: flex;
+}
+.botd__img {
+  width: 33%;
+  margin-right: 25px;
+  border-radius: 10px;
+}
+.botd__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 66%;
+}
+.botd__book-title {
+  font-weight: 600;
+  font-size: 24px;
+}
+.botd__book-author {
+  font-size: 18px;
+  opacity: 0.4;
+}
+.botd__btn {
+  font-size: 14px;
+  width: 40%;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.botd__form-bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+.botd__bookmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #ffce33;
+}
+.botd__btn-n {
+  background-color: black;
+  color: #f7f7f7;
+  border: none;
+  border-radius: 5px;
+  width: 120px;
+  margin: 0px 20px;
+}

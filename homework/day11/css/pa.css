@@ -1,0 +1,28 @@
+.pa {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.pa__title {
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.pa__img {
+  width: 33%;
+  margin-right: 25px;
+  border-radius: 10px;
+}
+.pa__info {
+  display: flex;
+}
+.pa__author {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.pa__detail {
+  font-size: 18px;
+  opacity: 0.3;
+  line-height: 23px;
+}

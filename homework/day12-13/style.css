@@ -1,0 +1,109 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+
+@import "playlist.css";
+
+:root {
+  --play-percent: 50%;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #f5f5f6;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > div {
+  background-color: white;
+  width: 225px;
+  height: 485px;
+  margin: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 20px 30px 3px grey;
+  padding: 15px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.playlist__status-bar,
+.now-play__status-bar {
+  padding: 0px 5px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.now-play__img {
+  width: 165px;
+  height: 165px;
+  margin: 35px 0px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 20px -7px #8083cc;
+}
+.now-play__title {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.now-play__artist {
+  font-size: 12px;
+  opacity: 0.6;
+  margin-bottom: 20px;
+}
+.now-play__time {
+  width: 90%;
+  display: flex;
+  opacity: 0.5;
+  font-size: 8px;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.now-play__bar {
+  width: 90%;
+  display: flex;
+  position: relative;
+}
+.now-play__bar-current {
+  position: absolute;
+  left: 0px;
+  width: var(--play-percent);
+  height: 4px;
+  border-radius: 2px;
+  background-color: black;
+}
+.now-play__bar-dot {
+  position: absolute;
+  left: var(--play-percent);
+  top: -2px;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: black;
+}
+.now-play__bar-total {
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #ededed;
+}
+.now-play__icon {
+  display: flex;
+  width: 100%;
+  margin: 30px 10px;
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+.now-play__icon i:first-child,
+.now-play__icon i:last-child {
+  color: #d5d5d5;
+}

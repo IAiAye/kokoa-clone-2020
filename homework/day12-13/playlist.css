@@ -1,0 +1,101 @@
+.playlist__artist-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0px 10px 20px -5px;
+  margin-bottom: 25px;
+}
+
+.playlist__aritist-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.playlist__aritist-genre {
+  font-size: 12px;
+  opacity: 0.6;
+}
+.playlist__btn {
+  display: flex;
+}
+.playlist__btn-shuffle,
+.playlist__btn-like {
+  width: 75px;
+  height: 30px;
+  border-radius: 16px;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px 0px;
+  margin: 25px 5px;
+  margin-bottom: 15px;
+  box-shadow: 0px 10px 20px -10px gray;
+}
+.playlist__btn-shuffle {
+  background-color: #000000;
+  color: #dddddd;
+}
+.playlist__btn-like {
+  background-color: #ebebebd3;
+  color: #bfbfbf;
+}
+.fa-heart {
+  color: black;
+}
+.playlist__playlist {
+  width: 90%;
+}
+.playlist__playlist-song {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  margin: 12px 0px;
+}
+.playlist__playlist-song-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.playlist__playlist-song-artist {
+  font-size: 9px;
+  opacity: 0.5;
+}
+.playlist__playlist-song-name {
+  font-size: 14px;
+}
+.playlist__playlist-song-dots {
+  opacity: 0.5;
+  position: absolute;
+  right: 0px;
+}
+.playlist__playbar {
+  position: absolute;
+  bottom: 5px;
+  width: 95%;
+  height: 40px;
+  background-color: #222222;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.playlist__palyabar-text {
+  margin-left: 15px;
+}
+.playlist__playbar-artist {
+  color: #6b6b6b;
+  font-size: 10px;
+  margin-bottom: 3px;
+}
+.playlist__playbar-name {
+  color: white;
+  font-size: 14px;
+}
+.playlist__playbar-icon {
+  position: absolute;
+  bottom: 7px;
+  right: 15px;
+}
+.playlist__playbar-icon i {
+  margin: 6px;
+  color: white;
+}
