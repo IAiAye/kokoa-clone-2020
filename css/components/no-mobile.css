@@ -11,23 +11,27 @@
   font-size: 32px;
 }
 
+#no-landscape {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-color: var(--yellow);
+  width: 100vw;
+  display: flex;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+
 @media screen and (max-width: 650px) {
   #no-mobile {
     display: none;
   }
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (orientation: portrait) {
   #no-landscape {
-    position: absolute;
-    z-index: 99;
-    height: 100vh;
-    background-color: var(--yellow);
-    width: 100vw;
-    display: flex;
-    top: 0;
-    justify-content: center;
-    align-items: center;
-    font-size: 32px;
+    display: none;
   }
 }
