@@ -1,3 +1,14 @@
+@keyframes badgeMove {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: none;
+  }
+}
 .badge {
   background-color: tomato;
   width: 24px;
@@ -8,4 +19,5 @@
   align-items: center;
   color: white;
   font-weight: 600;
+  animation: badgeMove 1.5s ease-in-out infinite;
 }

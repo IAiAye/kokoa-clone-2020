@@ -23,3 +23,18 @@
   right: 0px;
   color: var(--main-grey);
 }
+
+.settings__setting-bgm {
+  text-align: center;
+  font-size: 18px;
+  line-height: 36px;
+  width: 100%;
+  height: 20px;
+  padding: 60px 0px;
+  transform: translateY(-60px);
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+.settings__setting-bgm:hover {
+  opacity: 1;
+}

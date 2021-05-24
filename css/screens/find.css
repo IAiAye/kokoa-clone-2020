@@ -118,3 +118,6 @@
   will-change: transform;
   animation: heartBeat 1s linear infinite;
 }
+.open-post img {
+  background-color: black;
+}
